@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Button from './Button';
-import SearchList from './SearchList';
+import Button from './button';
+import SearchList from './searchList';
 
 function Modal() {
 	const [ itemsList, setItemsList ] = useState([]);

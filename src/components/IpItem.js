@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { getCountry } from '../api/IpApi';
 import { isValidIP } from '../helpers/dataHelpers';
-import CountryClock from './CountryClock';
-import CountryFlag from './CountryFlag';
-import Spinner from './Spinner';
-import ErrorMsg from './ErrorMsg';
+import CountryClock from './countryClock';
+import CountryFlag from './countryFlag';
+import Spinner from './spinner';
+import ErrorMsg from './errorMsg';
 
 const numberStyle = { backgroundColor: '#e5e5e5', borderRadius: '50%', width: '30px', height: '30px', flexShrink: '0' };
 

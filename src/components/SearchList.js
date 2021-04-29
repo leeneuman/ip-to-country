@@ -1,5 +1,5 @@
 import React from 'react';
-import IpItem from './IpItem';
+import IpItem from './ipItem';
 
 function SearchList({ itemsList = [] }) {
 	if (itemsList.length === 0) return null;
