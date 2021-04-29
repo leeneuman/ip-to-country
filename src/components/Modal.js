@@ -14,7 +14,7 @@ function Modal() {
 	};
 
 	return (
-		<div>
+		<div data-testid="modal">
 			<button type="button" className="btn btn-primary" data-toggle="modal" data-target="#IPModal">
 				Search IP's country
 			</button>

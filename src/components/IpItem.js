@@ -28,7 +28,7 @@ function IpItem({ item }) {
 					setCountry(res.data);
 				})
 				.catch((err) => {
-					alert(err);
+					alert(err.message);
 					setCountry({});
 				})
 				.finally(() => setIsSearching(false));
@@ -40,7 +40,7 @@ function IpItem({ item }) {
 	};
 
 	return (
-		<div className="d-flex p-2 flex-column">
+		<div className="d-flex p-2 flex-column" data-testid={`item-${item}`}>
 			<div className="d-flex align-items-center">
 				<div className="d-flex align-items-center justify-content-center mr-3" style={numberStyle}>
 					{item}
@@ -53,6 +53,7 @@ function IpItem({ item }) {
 					onChange={onChange}
 					onBlur={searchAddress}
 					disabled={isSearching}
+					data-testid={`item-input-${item}`}
 				/>
 				<CountryFlag country={country} />
 				<CountryClock ip={address} show={!isSearching && country && country.countryCode} />

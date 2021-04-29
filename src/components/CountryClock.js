@@ -9,7 +9,7 @@ function CountryClock({ ip, show = false }) {
 	useEffect(
 		() => {
 			if (isValidIP(ip)) {
-				getTimezone(ip).then((res) => setTimeZone(res.data.timezone)).catch((err) => alert(err));
+				getTimezone(ip).then((res) => setTimeZone(res.data.timezone)).catch((err) => console.log(err.message));
 			}
 		},
 		[ ip ]

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="mt-1 text-danger"
+  data-testid="error-msg"
+>
+  test error msg
+</div>
+`;

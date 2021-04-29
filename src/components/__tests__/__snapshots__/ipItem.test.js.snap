@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="d-flex p-2 flex-column"
+  data-testid="item-1"
+>
+  <div
+    className="d-flex align-items-center"
+  >
+    <div
+      className="d-flex align-items-center justify-content-center mr-3"
+      style={
+        Object {
+          "backgroundColor": "#e5e5e5",
+          "borderRadius": "50%",
+          "flexShrink": "0",
+          "height": "30px",
+          "width": "30px",
+        }
+      }
+    >
+      1
+    </div>
+    <input
+      aria-label="ip address"
+      className="form-control mr-3 w-50"
+      data-testid="item-input-1"
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;

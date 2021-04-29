@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<button
+  aria-label="test label"
+  className="btn btn-primary mt-3"
+  data-testid="button"
+  type="button"
+>
+  <span
+    aria-hidden="true"
+    className="mr-1"
+  >
+    +
+  </span>
+  test label
+</button>
+`;
