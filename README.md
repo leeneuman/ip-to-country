@@ -1,3 +1,5 @@
+![CI/CD](https://github.com/leeneuman/ip-to-country/workflows/CI-CD/badge.svg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
