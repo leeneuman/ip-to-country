@@ -9,8 +9,3 @@ test('should render clock component', () => {
 	const clockElement = screen.getByTestId('clock');
 	expect(clockElement).toBeInTheDocument();
 });
-
-test('matches snapshot', () => {
-	const tree = renderer.create(<CountryClock ip={'79.179.206.105'} show={true} />).toJSON();
-	expect(tree).toMatchSnapshot();
-});
