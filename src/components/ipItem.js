@@ -19,23 +19,25 @@ function IpItem({ item }) {
 	};
 
 	const searchAddress = () => {
-		setIsSearching(true);
-		setFieldError(null);
+		if (address.length > 0) {
+			setIsSearching(true);
+			setFieldError(null);
 
-		if (isValidIP(address)) {
-			getCountry(address)
-				.then((res) => {
-					setCountry(res.data);
-				})
-				.catch((err) => {
-					alert(err.message);
-					setCountry({});
-				})
-				.finally(() => setIsSearching(false));
-		} else {
-			setFieldError('Invalid input');
-			setCountry({});
-			setIsSearching(false);
+			if (isValidIP(address)) {
+				getCountry(address)
+					.then((res) => {
+						setCountry(res.data);
+					})
+					.catch((err) => {
+						alert(err.message);
+						setCountry({});
+					})
+					.finally(() => setIsSearching(false));
+			} else {
+				setFieldError('Invalid input');
+				setCountry({});
+				setIsSearching(false);
+			}
 		}
 	};
 

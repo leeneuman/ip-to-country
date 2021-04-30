@@ -3,14 +3,14 @@ import Button from './button';
 import SearchList from './searchList';
 
 function Modal() {
-	const [ itemsList, setItemsList ] = useState([]);
+	const [ itemsList, setItemsList ] = useState([ 1 ]);
 
 	const addRow = () => {
 		setItemsList([ ...itemsList, itemsList.length + 1 ]);
 	};
 
 	const reset = () => {
-		setItemsList([]);
+		setItemsList([ 1 ]);
 	};
 
 	return (
