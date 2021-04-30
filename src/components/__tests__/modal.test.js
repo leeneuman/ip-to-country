@@ -1,6 +1,6 @@
 import { render, screen, cleanup, fireEvent } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import Modal from '../modal';
+import Modal from './../modal';
 
 afterEach(cleanup);
 

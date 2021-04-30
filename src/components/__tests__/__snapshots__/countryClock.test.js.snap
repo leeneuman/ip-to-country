@@ -5,9 +5,9 @@ exports[`matches snapshot 1`] = `
   data-testid="clock"
 >
   <time
-    dateTime={"2021-04-30T09:28:23.411Z"}
+    dateTime={"2021-04-30T09:32:23.625Z"}
   >
-    12:28:23
+    12:32:23
   </time>
 </div>
 `;

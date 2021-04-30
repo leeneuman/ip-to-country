@@ -1,6 +1,6 @@
 import { render, screen, cleanup } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import CountryClock from '../countryClock';
+import CountryClock from './../countryClock';
 
 afterEach(cleanup);
 

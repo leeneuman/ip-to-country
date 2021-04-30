@@ -1,6 +1,6 @@
 import { render, screen, cleanup, fireEvent } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import IpItem from '../ipItem';
+import IpItem from './../ipItem';
 
 afterEach(cleanup);
 

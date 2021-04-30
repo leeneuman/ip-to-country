@@ -1,6 +1,6 @@
 import { render, screen, cleanup } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import CountryFlag from '../countryFlag';
+import CountryFlag from './../countryFlag';
 
 afterEach(cleanup);
 

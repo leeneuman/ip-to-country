@@ -1,6 +1,6 @@
 import { render, screen, cleanup } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import SearchList from '../searchList';
+import SearchList from './../searchList';
 
 afterEach(cleanup);
 

@@ -1,6 +1,6 @@
 import { render, screen, cleanup } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import ErrorMsg from '../errorMsg';
+import ErrorMsg from './../errorMsg';
 
 afterEach(cleanup);
 
