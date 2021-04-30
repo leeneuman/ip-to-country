@@ -1,3 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`matches snapshot 1`] = `null`;
+exports[`matches snapshot 1`] = `
+<div
+  data-testid="clock"
+>
+  <time
+    dateTime={"2021-04-30T08:15:10.527Z"}
+  >
+    11:15:10
+  </time>
+</div>
+`;

@@ -15,9 +15,13 @@ function CountryClock({ ip, show = false }) {
 		[ ip ]
 	);
 
-	if (!timeZone || !show) return null;
+	if (!ip || !show) return null;
 
-	return <Clock format={'HH:mm:ss'} ticking={true} timezone={timeZone} />;
+	return (
+		<div data-testid="clock">
+			<Clock format={'HH:mm:ss'} ticking={true} timezone={timeZone} />
+		</div>
+	);
 }
 
 export default CountryClock;
